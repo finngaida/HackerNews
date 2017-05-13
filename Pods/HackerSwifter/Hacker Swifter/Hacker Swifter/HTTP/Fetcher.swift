@@ -44,11 +44,11 @@ open class Fetcher {
     class func Fetch(_ ressource: String, parsing: @escaping FetchParsing, completion: @escaping FetchCompletion) {
     
         let cacheKey = Cache.generateCacheKey(ressource)
-        Cache.sharedCache.objectForKey(cacheKey, completion: {(object: AnyObject!) in
-            if let realObject: AnyObject = object {
-                completion(realObject, nil, true)
-            }
-        })
+//        Cache.sharedCache.objectForKey(cacheKey, completion: {(object: AnyObject!) in
+//            if let realObject: AnyObject = object {
+//                completion(realObject, nil, true)
+//            }
+//        })
         
         let path = _Fetcher.baseURL + ressource
         let task = _Fetcher.session.dataTask(with: URL(string: path)! , completionHandler: {(data: Data?, response, error) in
