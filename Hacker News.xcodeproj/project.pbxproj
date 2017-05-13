@@ -22,6 +22,7 @@
 		50CFA5C7211B3517ADFA7FFD /* Pods_Hacker_News.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hacker_News.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5153879BA53F5EE57751C121 /* Pods-Hacker News.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hacker News.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hacker News/Pods-Hacker News.release.xcconfig"; sourceTree = "<group>"; };
 		C537263D1EC7885500C4E5ED /* SafariViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafariViewController.swift; sourceTree = "<group>"; };
+		C537263F1EC78BAE00C4E5ED /* Hacker News.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hacker News.entitlements"; sourceTree = "<group>"; };
 		C5477DB51EC68D5E00649FDD /* Hacker News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hacker News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5477DB81EC68D5E00649FDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5477DBA1EC68D5E00649FDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +62,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C53726401EC78DE300C4E5ED /* Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				C537263F1EC78BAE00C4E5ED /* Hacker News.entitlements */,
+				C5477DBC1EC68D5E00649FDD /* Main.storyboard */,
+				C5477DBF1EC68D5E00649FDD /* Assets.xcassets */,
+				C5477DC11EC68D5E00649FDD /* LaunchScreen.storyboard */,
+				C5477DC41EC68D5E00649FDD /* Info.plist */,
+			);
+			name = Stuff;
+			sourceTree = "<group>";
+		};
 		C5477DAC1EC68D5E00649FDD = {
 			isa = PBXGroup;
 			children = (
@@ -82,14 +95,11 @@
 		C5477DB71EC68D5E00649FDD /* Hacker News */ = {
 			isa = PBXGroup;
 			children = (
+				C53726401EC78DE300C4E5ED /* Stuff */,
 				C5477DB81EC68D5E00649FDD /* AppDelegate.swift */,
 				C5477DBA1EC68D5E00649FDD /* ViewController.swift */,
 				C537263D1EC7885500C4E5ED /* SafariViewController.swift */,
 				C5477DCA1EC695CD00649FDD /* TableViewCell.swift */,
-				C5477DBC1EC68D5E00649FDD /* Main.storyboard */,
-				C5477DBF1EC68D5E00649FDD /* Assets.xcassets */,
-				C5477DC11EC68D5E00649FDD /* LaunchScreen.storyboard */,
-				C5477DC41EC68D5E00649FDD /* Info.plist */,
 			);
 			path = "Hacker News";
 			sourceTree = "<group>";
@@ -132,6 +142,11 @@
 						DevelopmentTeam = PTHJ3DNH6P;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -347,6 +362,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Hacker News/Hacker News.entitlements";
 				DEVELOPMENT_TEAM = PTHJ3DNH6P;
 				INFOPLIST_FILE = "Hacker News/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -362,6 +378,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Hacker News/Hacker News.entitlements";
 				DEVELOPMENT_TEAM = PTHJ3DNH6P;
 				INFOPLIST_FILE = "Hacker News/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
