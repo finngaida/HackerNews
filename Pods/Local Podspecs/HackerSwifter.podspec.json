@@ -1,0 +1,29 @@
+{
+  "name": "HackerSwifter",
+  "version": "0.1.0",
+  "summary": "A Hacker News Swift library",
+  "homepage": "https://github.com/Dimillian/HackerSwifter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Thomas Ricouard": "ricouard77@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Dimillian/HackerSwifter.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "Hacker Swifter/Hacker Swifter/**/*.{h,swift}",
+    "Hacker Swifter/Hacker Swifter/*.{h}"
+  ],
+  "frameworks": "Foundation",
+  "requires_arc": true,
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

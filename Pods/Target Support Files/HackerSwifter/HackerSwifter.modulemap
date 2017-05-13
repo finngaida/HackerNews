@@ -1,0 +1,6 @@
+framework module HackerSwifter {
+  umbrella header "HackerSwifter-umbrella.h"
+
+  export *
+  module * { export * }
+}

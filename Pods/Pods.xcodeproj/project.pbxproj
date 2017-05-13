@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06378CE5743E84439661021D8D3F5D64 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F703285A435D6E3C7F9AB7F23AF0E2 /* Comment.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0F57FAB662448EE66F0999C7EB691192 /* HTMLScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3625A1C599B41631693F27ADD85EED8 /* HTMLScanner.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		21E3BD7D2510AA3EB63A4C8E84641F0A /* Hacker Swifter.h in Headers */ = {isa = PBXBuildFile; fileRef = CBE62DC004B8C8165AF900077126F8DD /* Hacker Swifter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		355CFD75D069F4F8596BB09CEF371942 /* Pods-Hacker News-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B08B80BC0B2EA197A5C438340050B6CE /* Pods-Hacker News-dummy.m */; };
+		498D5F43CBB21F1D9C55D188D52AF3B6 /* HTMLString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA588B57CEA7BEFC8EA8913ED1354DF /* HTMLString.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		68E6A0E321547FE2B0E63C56AB05C11B /* Pods-Hacker News-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF6AF026303D34AA46852EE19C57CE64 /* Pods-Hacker News-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79525768928A47D7332CE814C9CA75E2 /* HackerSwifter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6BEC9D7F53610BC20B0AC41381C748 /* HackerSwifter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88A5689FB051A6A6E8790427F0372CB5 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E055014FCB2A820A77A2034B3AF50516 /* Post.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9AF5695E3C130492B61EBAA8F6411B91 /* HackerSwifter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D920D33E08C0E618243FD1733149193B /* HackerSwifter-dummy.m */; };
+		9F6E1B806A759EA0218C890E160C8808 /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A93F2447F27F5DB0D6CB7729701AE12 /* Fetcher.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C1624D76F5815D43895084D1AA0403F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		DA08411F89D7C7D50EEBF3178D6DC139 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98398ECAAAFD172717FF9FA6805304D /* Cache.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E531A8739FCC2CF973D0A5AA92FD0E10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56722E1ED4E9B35A59EE036373BAE615 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8D0D59BBCE6DC577A9EE8E887041A12;
+			remoteInfo = HackerSwifter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		053986E71A202045EC8AF56191A5CF4C /* Pods-Hacker News-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hacker News-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0676E5709E02A62F4F5CB3B5B47F4259 /* Pods-Hacker News.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hacker News.release.xcconfig"; sourceTree = "<group>"; };
+		0AA588B57CEA7BEFC8EA8913ED1354DF /* HTMLString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLString.swift; path = "Hacker Swifter/Hacker Swifter/Extensions/HTMLString.swift"; sourceTree = "<group>"; };
+		1D9EC90D35A3F58460D3C8680C9212C8 /* Pods-Hacker News.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Hacker News.modulemap"; sourceTree = "<group>"; };
+		30DCB1B864A82BF7D96DE27BAEBA10FD /* Pods_Hacker_News.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Hacker_News.framework; path = "Pods-Hacker News.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F703285A435D6E3C7F9AB7F23AF0E2 /* Comment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comment.swift; path = "Hacker Swifter/Hacker Swifter/Models/Comment.swift"; sourceTree = "<group>"; };
+		772F3489178A96DEB0F857D867D143D9 /* Pods-Hacker News-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hacker News-acknowledgements.plist"; sourceTree = "<group>"; };
+		7D10F879C93D01AD7C44245DCE877052 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C57392468AD30DA0D6CD78251F53D91 /* HackerSwifter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HackerSwifter.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98B146C82DFA301DD8BD1D14A09E7244 /* Pods-Hacker News-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hacker News-resources.sh"; sourceTree = "<group>"; };
+		9A93F2447F27F5DB0D6CB7729701AE12 /* Fetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fetcher.swift; path = "Hacker Swifter/Hacker Swifter/HTTP/Fetcher.swift"; sourceTree = "<group>"; };
+		9C563B656F1B993EC4FC45BD62814352 /* HackerSwifter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HackerSwifter-prefix.pch"; sourceTree = "<group>"; };
+		AF6AF026303D34AA46852EE19C57CE64 /* Pods-Hacker News-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hacker News-umbrella.h"; sourceTree = "<group>"; };
+		B08B80BC0B2EA197A5C438340050B6CE /* Pods-Hacker News-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hacker News-dummy.m"; sourceTree = "<group>"; };
+		B3625A1C599B41631693F27ADD85EED8 /* HTMLScanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLScanner.swift; path = "Hacker Swifter/Hacker Swifter/Extensions/HTMLScanner.swift"; sourceTree = "<group>"; };
+		BF6BEC9D7F53610BC20B0AC41381C748 /* HackerSwifter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HackerSwifter-umbrella.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CBE62DC004B8C8165AF900077126F8DD /* Hacker Swifter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Hacker Swifter.h"; path = "Hacker Swifter/Hacker Swifter/Hacker Swifter.h"; sourceTree = "<group>"; };
+		D920D33E08C0E618243FD1733149193B /* HackerSwifter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HackerSwifter-dummy.m"; sourceTree = "<group>"; };
+		DDDB7AA42829BE8C6B7AF3E2911034D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E055014FCB2A820A77A2034B3AF50516 /* Post.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Post.swift; path = "Hacker Swifter/Hacker Swifter/Models/Post.swift"; sourceTree = "<group>"; };
+		E68C4D6B023A89FB17294CD1C87DE3FE /* HackerSwifter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HackerSwifter.framework; path = HackerSwifter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E98398ECAAAFD172717FF9FA6805304D /* Cache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cache.swift; path = "Hacker Swifter/Hacker Swifter/HTTP/Cache.swift"; sourceTree = "<group>"; };
+		EFB98A5D788D09477C9D1E99C2AF4BBC /* HackerSwifter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HackerSwifter.xcconfig; sourceTree = "<group>"; };
+		F8F505D4B23F177C33B1FA5326C7BFC9 /* Pods-Hacker News-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hacker News-frameworks.sh"; sourceTree = "<group>"; };
+		F90F469747AB077E7AF8BB95681D3863 /* Pods-Hacker News.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hacker News.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E75EF425F5044C88B0EF556F99A5D0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E531A8739FCC2CF973D0A5AA92FD0E10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB537EF9FC113C249A32AB759CEB8923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1624D76F5815D43895084D1AA0403F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C3CA7A9F7C6FD74C36996DE111D9956 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C57392468AD30DA0D6CD78251F53D91 /* HackerSwifter.modulemap */,
+				EFB98A5D788D09477C9D1E99C2AF4BBC /* HackerSwifter.xcconfig */,
+				D920D33E08C0E618243FD1733149193B /* HackerSwifter-dummy.m */,
+				9C563B656F1B993EC4FC45BD62814352 /* HackerSwifter-prefix.pch */,
+				BF6BEC9D7F53610BC20B0AC41381C748 /* HackerSwifter-umbrella.h */,
+				DDDB7AA42829BE8C6B7AF3E2911034D8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HackerSwifter";
+			sourceTree = "<group>";
+		};
+		4FCDF933A8064DBBCA7F929482C2CFCB /* HackerSwifter */ = {
+			isa = PBXGroup;
+			children = (
+				E98398ECAAAFD172717FF9FA6805304D /* Cache.swift */,
+				39F703285A435D6E3C7F9AB7F23AF0E2 /* Comment.swift */,
+				9A93F2447F27F5DB0D6CB7729701AE12 /* Fetcher.swift */,
+				CBE62DC004B8C8165AF900077126F8DD /* Hacker Swifter.h */,
+				B3625A1C599B41631693F27ADD85EED8 /* HTMLScanner.swift */,
+				0AA588B57CEA7BEFC8EA8913ED1354DF /* HTMLString.swift */,
+				E055014FCB2A820A77A2034B3AF50516 /* Post.swift */,
+				4C3CA7A9F7C6FD74C36996DE111D9956 /* Support Files */,
+			);
+			name = HackerSwifter;
+			path = HackerSwifter;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F33609A061267095F45C8B15EB35D3AF /* Pods */,
+				E5C095BAE3D5F1816E3CABDC8F6F48BE /* Products */,
+				8EAABF4C5DBC1B71F7EAF8F90BD90118 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8EAABF4C5DBC1B71F7EAF8F90BD90118 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4F69A4EDAB18F0BD9C2EA5BFEED1474 /* Pods-Hacker News */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4F69A4EDAB18F0BD9C2EA5BFEED1474 /* Pods-Hacker News */ = {
+			isa = PBXGroup;
+			children = (
+				7D10F879C93D01AD7C44245DCE877052 /* Info.plist */,
+				1D9EC90D35A3F58460D3C8680C9212C8 /* Pods-Hacker News.modulemap */,
+				053986E71A202045EC8AF56191A5CF4C /* Pods-Hacker News-acknowledgements.markdown */,
+				772F3489178A96DEB0F857D867D143D9 /* Pods-Hacker News-acknowledgements.plist */,
+				B08B80BC0B2EA197A5C438340050B6CE /* Pods-Hacker News-dummy.m */,
+				F8F505D4B23F177C33B1FA5326C7BFC9 /* Pods-Hacker News-frameworks.sh */,
+				98B146C82DFA301DD8BD1D14A09E7244 /* Pods-Hacker News-resources.sh */,
+				AF6AF026303D34AA46852EE19C57CE64 /* Pods-Hacker News-umbrella.h */,
+				F90F469747AB077E7AF8BB95681D3863 /* Pods-Hacker News.debug.xcconfig */,
+				0676E5709E02A62F4F5CB3B5B47F4259 /* Pods-Hacker News.release.xcconfig */,
+			);
+			name = "Pods-Hacker News";
+			path = "Target Support Files/Pods-Hacker News";
+			sourceTree = "<group>";
+		};
+		E5C095BAE3D5F1816E3CABDC8F6F48BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E68C4D6B023A89FB17294CD1C87DE3FE /* HackerSwifter.framework */,
+				30DCB1B864A82BF7D96DE27BAEBA10FD /* Pods_Hacker_News.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F33609A061267095F45C8B15EB35D3AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FCDF933A8064DBBCA7F929482C2CFCB /* HackerSwifter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		792CF88CD27702B8D15D0CA7027E9608 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E3BD7D2510AA3EB63A4C8E84641F0A /* Hacker Swifter.h in Headers */,
+				79525768928A47D7332CE814C9CA75E2 /* HackerSwifter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE99C5E1D3189321B764A5ACA111C4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E6A0E321547FE2B0E63C56AB05C11B /* Pods-Hacker News-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A8D0D59BBCE6DC577A9EE8E887041A12 /* HackerSwifter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9888E89E0316F825E9F48226B2EA3560 /* Build configuration list for PBXNativeTarget "HackerSwifter" */;
+			buildPhases = (
+				4B2A625CE009CA392C0A77D8FE35D427 /* Sources */,
+				9E75EF425F5044C88B0EF556F99A5D0C /* Frameworks */,
+				792CF88CD27702B8D15D0CA7027E9608 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackerSwifter;
+			productName = HackerSwifter;
+			productReference = E68C4D6B023A89FB17294CD1C87DE3FE /* HackerSwifter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F24E022E388DA18844EDE10F47F8D120 /* Pods-Hacker News */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADCBED781685B2BB5766EC11A8266ABB /* Build configuration list for PBXNativeTarget "Pods-Hacker News" */;
+			buildPhases = (
+				19ECE36E50F7697BB6E7C435480484BB /* Sources */,
+				CB537EF9FC113C249A32AB759CEB8923 /* Frameworks */,
+				8EE99C5E1D3189321B764A5ACA111C4E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				991717963518150D56FCD08A59261336 /* PBXTargetDependency */,
+			);
+			name = "Pods-Hacker News";
+			productName = "Pods-Hacker News";
+			productReference = 30DCB1B864A82BF7D96DE27BAEBA10FD /* Pods_Hacker_News.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E5C095BAE3D5F1816E3CABDC8F6F48BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8D0D59BBCE6DC577A9EE8E887041A12 /* HackerSwifter */,
+				F24E022E388DA18844EDE10F47F8D120 /* Pods-Hacker News */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19ECE36E50F7697BB6E7C435480484BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355CFD75D069F4F8596BB09CEF371942 /* Pods-Hacker News-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B2A625CE009CA392C0A77D8FE35D427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA08411F89D7C7D50EEBF3178D6DC139 /* Cache.swift in Sources */,
+				06378CE5743E84439661021D8D3F5D64 /* Comment.swift in Sources */,
+				9F6E1B806A759EA0218C890E160C8808 /* Fetcher.swift in Sources */,
+				9AF5695E3C130492B61EBAA8F6411B91 /* HackerSwifter-dummy.m in Sources */,
+				0F57FAB662448EE66F0999C7EB691192 /* HTMLScanner.swift in Sources */,
+				498D5F43CBB21F1D9C55D188D52AF3B6 /* HTMLString.swift in Sources */,
+				88A5689FB051A6A6E8790427F0372CB5 /* Post.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		991717963518150D56FCD08A59261336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HackerSwifter;
+			target = A8D0D59BBCE6DC577A9EE8E887041A12 /* HackerSwifter */;
+			targetProxy = 56722E1ED4E9B35A59EE036373BAE615 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8DD7326BE6E19EBAB91ED67AD48A2196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0676E5709E02A62F4F5CB3B5B47F4259 /* Pods-Hacker News.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Hacker News/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hacker News/Pods-Hacker News.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Hacker_News;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A80A8B56EEF359BCE550963ACF856AAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F90F469747AB077E7AF8BB95681D3863 /* Pods-Hacker News.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Hacker News/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hacker News/Pods-Hacker News.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Hacker_News;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8AF90D7558C8CA5F3504D8DCB243552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFB98A5D788D09477C9D1E99C2AF4BBC /* HackerSwifter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HackerSwifter/HackerSwifter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HackerSwifter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HackerSwifter/HackerSwifter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HackerSwifter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0EBEB7F1B1CFD9966DDD53980FB5FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFB98A5D788D09477C9D1E99C2AF4BBC /* HackerSwifter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HackerSwifter/HackerSwifter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HackerSwifter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HackerSwifter/HackerSwifter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HackerSwifter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9888E89E0316F825E9F48226B2EA3560 /* Build configuration list for PBXNativeTarget "HackerSwifter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0EBEB7F1B1CFD9966DDD53980FB5FF7 /* Debug */,
+				C8AF90D7558C8CA5F3504D8DCB243552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADCBED781685B2BB5766EC11A8266ABB /* Build configuration list for PBXNativeTarget "Pods-Hacker News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80A8B56EEF359BCE550963ACF856AAD /* Debug */,
+				8DD7326BE6E19EBAB91ED67AD48A2196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

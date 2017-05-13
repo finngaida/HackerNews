@@ -1,0 +1,21 @@
+PODS:
+  - HackerSwifter (0.1.0)
+
+DEPENDENCIES:
+  - HackerSwifter (from `https://github.com/finngaida/HackerSwifter.git`)
+
+EXTERNAL SOURCES:
+  HackerSwifter:
+    :git: https://github.com/finngaida/HackerSwifter.git
+
+CHECKOUT OPTIONS:
+  HackerSwifter:
+    :commit: 9f7b5512a54dba1d49255ddfa34a0efed4e1cdc7
+    :git: https://github.com/finngaida/HackerSwifter.git
+
+SPEC CHECKSUMS:
+  HackerSwifter: 3ea6f4a823dd74912000bbffb76028d8956b909a
+
+PODFILE CHECKSUM: d50046f0d3b53363792b19cf1a61c03b6c6ba7e3
+
+COCOAPODS: 1.1.1
