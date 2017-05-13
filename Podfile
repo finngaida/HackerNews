@@ -7,5 +7,6 @@ target 'Hacker News' do
 
   # Pods for Hacker News
   pod 'HackerSwifter', :git => 'https://github.com/finngaida/HackerSwifter.git'
-  #pod 'HNAPI'
+  pod 'SwiftLinkPreview'
+  pod 'SwitchLoader', :git => 'https://github.com/finngaida/Loader.git'
 end

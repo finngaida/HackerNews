@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7E604CF053112C20636AD7B7 /* Pods_Hacker_News.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CFA5C7211B3517ADFA7FFD /* Pods_Hacker_News.framework */; };
+		C537263E1EC7885500C4E5ED /* SafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C537263D1EC7885500C4E5ED /* SafariViewController.swift */; };
 		C5477DB91EC68D5E00649FDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5477DB81EC68D5E00649FDD /* AppDelegate.swift */; };
 		C5477DBB1EC68D5E00649FDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5477DBA1EC68D5E00649FDD /* ViewController.swift */; };
 		C5477DBE1EC68D5E00649FDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5477DBC1EC68D5E00649FDD /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		41A38C6EA200F004043DA7B9 /* Pods-Hacker News.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hacker News.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hacker News/Pods-Hacker News.debug.xcconfig"; sourceTree = "<group>"; };
 		50CFA5C7211B3517ADFA7FFD /* Pods_Hacker_News.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hacker_News.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5153879BA53F5EE57751C121 /* Pods-Hacker News.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hacker News.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hacker News/Pods-Hacker News.release.xcconfig"; sourceTree = "<group>"; };
+		C537263D1EC7885500C4E5ED /* SafariViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafariViewController.swift; sourceTree = "<group>"; };
 		C5477DB51EC68D5E00649FDD /* Hacker News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hacker News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5477DB81EC68D5E00649FDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5477DBA1EC68D5E00649FDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			children = (
 				C5477DB81EC68D5E00649FDD /* AppDelegate.swift */,
 				C5477DBA1EC68D5E00649FDD /* ViewController.swift */,
+				C537263D1EC7885500C4E5ED /* SafariViewController.swift */,
 				C5477DCA1EC695CD00649FDD /* TableViewCell.swift */,
 				C5477DBC1EC68D5E00649FDD /* Main.storyboard */,
 				C5477DBF1EC68D5E00649FDD /* Assets.xcassets */,
@@ -218,6 +221,7 @@
 			files = (
 				C5477DCB1EC695CD00649FDD /* TableViewCell.swift in Sources */,
 				C5477DBB1EC68D5E00649FDD /* ViewController.swift in Sources */,
+				C537263E1EC7885500C4E5ED /* SafariViewController.swift in Sources */,
 				C5477DB91EC68D5E00649FDD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

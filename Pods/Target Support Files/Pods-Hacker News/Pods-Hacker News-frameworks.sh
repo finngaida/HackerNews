@@ -85,7 +85,11 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/HackerSwifter/HackerSwifter.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SwiftLinkPreview/SwiftLinkPreview.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SwitchLoader/SwitchLoader.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/HackerSwifter/HackerSwifter.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SwiftLinkPreview/SwiftLinkPreview.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SwitchLoader/SwitchLoader.framework"
 fi

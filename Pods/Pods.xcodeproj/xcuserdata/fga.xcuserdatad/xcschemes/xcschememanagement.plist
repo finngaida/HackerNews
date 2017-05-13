@@ -14,15 +14,35 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SwiftLinkPreview.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwitchLoader.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>48DB36A0698ED678B2FD8CA98DFCA548</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9447A5B569C9E385ED90FAD30E8D66B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>A8D0D59BBCE6DC577A9EE8E887041A12</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F24E022E388DA18844EDE10F47F8D120</key>
+		<key>B37F5F351D1BB43E4EB7BEDB014E99D8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

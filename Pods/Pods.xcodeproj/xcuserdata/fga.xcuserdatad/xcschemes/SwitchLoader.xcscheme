@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "48DB36A0698ED678B2FD8CA98DFCA548"
-               BuildableName = "Pods_Hacker_News.framework"
-               BlueprintName = "Pods-Hacker News"
+               BlueprintIdentifier = "9447A5B569C9E385ED90FAD30E8D66B4"
+               BuildableName = "SwitchLoader.framework"
+               BlueprintName = "SwitchLoader"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "48DB36A0698ED678B2FD8CA98DFCA548"
-            BuildableName = "Pods_Hacker_News.framework"
-            BlueprintName = "Pods-Hacker News"
+            BlueprintIdentifier = "9447A5B569C9E385ED90FAD30E8D66B4"
+            BuildableName = "SwitchLoader.framework"
+            BlueprintName = "SwitchLoader"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

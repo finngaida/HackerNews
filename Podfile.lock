@@ -1,21 +1,32 @@
 PODS:
   - HackerSwifter (0.1.0)
+  - SwiftLinkPreview (1.0.1)
+  - SwitchLoader (0.0.1)
 
 DEPENDENCIES:
   - HackerSwifter (from `https://github.com/finngaida/HackerSwifter.git`)
+  - SwiftLinkPreview
+  - SwitchLoader (from `https://github.com/finngaida/Loader.git`)
 
 EXTERNAL SOURCES:
   HackerSwifter:
     :git: https://github.com/finngaida/HackerSwifter.git
+  SwitchLoader:
+    :git: https://github.com/finngaida/Loader.git
 
 CHECKOUT OPTIONS:
   HackerSwifter:
     :commit: 9f7b5512a54dba1d49255ddfa34a0efed4e1cdc7
     :git: https://github.com/finngaida/HackerSwifter.git
+  SwitchLoader:
+    :commit: a37af5d86c51b57c41bd75b1ec3e6dc5e9fdbaf8
+    :git: https://github.com/finngaida/Loader.git
 
 SPEC CHECKSUMS:
   HackerSwifter: 3ea6f4a823dd74912000bbffb76028d8956b909a
+  SwiftLinkPreview: 977461879ae31f9e2d1bf2fafba0553d99eacbb9
+  SwitchLoader: 6c4bbe4b5096206559306553098d1e0f01c8a166
 
-PODFILE CHECKSUM: d50046f0d3b53363792b19cf1a61c03b6c6ba7e3
+PODFILE CHECKSUM: b6784cd6328002fc3ed10d0a73c6280705812e37
 
 COCOAPODS: 1.1.1
